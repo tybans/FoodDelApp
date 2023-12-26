@@ -9,14 +9,14 @@ function Card() {
                     <h5 className="card-title">Veg Brger</h5>
                     <p className="card-text">ld on the cof the card's content.</p>
                     <div className="container w-100">
-                        <select className='m-2 h-100 bg-primary rounded'>
+                        <select className='m-2 h-100 bg-primary rounded' style={{color:"white"}}>
                             {Array.from(Array(6), (e, i) => {
                                 return (
                                     <option key={i + 1} value={i + 1}>{i + 1}</option>
                                 )
                             })}
                         </select>
-                        <select className='m-2 h-100 bg-primary rounded'>
+                        <select className='m-2 h-100 bg-primary rounded' style={{color:"white"}}>
                             <option value="half">Half</option>
                             <option value="full">Full</option>
                         </select>
